@@ -11,7 +11,8 @@ Programming is my hobby. I have experience in preparing children to participate 
 
 ## Example code
 
-```function draw_chordes() {
+```
+function draw_chordes() {
 
     let ma = (m2.y - m1.y) / (m2.x - m1.x);
     let mb = (m3.y - m2.y) / (m3.x - m2.x);
