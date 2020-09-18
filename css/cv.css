@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+}
+.main{
+    padding: 50px;
+    margin: 50px;
+    color: white;
+    max-width: 800px;
+    background-color: rgb(32, 21, 43);
+    
+}
+img{
+    width: 125px;
+}
+h1{
+    color: rgb(206, 151, 88);
+}
+.cont{
+    color: rgb(145, 189, 145);
+    font-weight: bold;
+}
+ul{
+    list-style-type: none; 
+}
