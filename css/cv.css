@@ -1,12 +1,15 @@
 body{
     background-color: black;
+    /* text-align: center; */
 }
 .main{
     padding: 50px;
     margin: 50px;
     color: white;
     max-width: 800px;
-    background-color: rgb(32, 21, 43);
+    background-color: rgb(32, 21, 43);    
+    border: 1px solid blue;
+    margin: auto;
     
 }
 img{
