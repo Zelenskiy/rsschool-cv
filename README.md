@@ -1,2 +1,2 @@
-https://Zelenskiy.github.io/rsschool-cv/cv
+https://Zelenskiy.github.io/rsschool-cv/
 
