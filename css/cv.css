@@ -9,8 +9,7 @@ body{
     max-width: 800px;
     background-color: rgb(32, 21, 43);    
     border: 1px solid blue;
-    margin: auto;
-    
+    margin: auto;    
 }
 img{
     width: 125px;
