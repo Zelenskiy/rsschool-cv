@@ -29,10 +29,10 @@ I possess a foundation in computer science and physics, enabling me to apply my 
 * SQL
 * Adobe Photoshop
 
-**********************************
+*********************************
 ### Soft Skills
 I am outgoing and excel at teamwork. I possess a rapid learning capability, a strong aptitude for researching and retrieving information, and the ability to analyze and succinctly summarize data.
-**********************************
+*********************************
 
 ### Code examples:
 
@@ -49,9 +49,7 @@ const mass_2 = document.getElementById("mass_2");
 
 const ctx = canvas.getContext("2d");
 
-
-class MovingBody {
- 
+class MovingBody { 
   constructor(
     mass, mass2,
     μ,
@@ -100,8 +98,6 @@ class MovingBody {
     const widthGruz = 30
     const heightGruz = 10
     ctx.fillRect(520-widthGruz/2, this.y + l2, widthGruz, heightGruz);
-    // Малюємо вектори
-
 
   }
   
@@ -109,8 +105,7 @@ class MovingBody {
     if (isStarted) {
       if (this.ax<=0) {
         this.ax = 0;
-        kol.classList.remove("rotate-img")
-      
+        kol.classList.remove("rotate-img")      
       }
         
         if (this.x > widthTribometr-10 ) {
