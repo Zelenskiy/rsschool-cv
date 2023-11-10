@@ -50,7 +50,7 @@
     <h3>Code examples:</h3>
     <hr>
     <pre>
-        
+
         const g = 9.81;
         let m1 = 0.35;
         let m2 = 0.1;
@@ -66,13 +66,13 @@
         const height = 30;
         const widthTribometr = 378+70;
         movingRectangle.reset();
-        
+
         reset.addEventListener("click", () =&gt; {
           isStarted = false;
           movingRectangle.reset();
-            
+
         });
-        
+
         started.addEventListener("click", () =&gt; {
           isStarted = !isStarted;
           if (isStarted) {
@@ -83,13 +83,13 @@
             started.innerText = "Пуск"
           }
         });
-        
-        
+
+
         function animate() {
           movingRectangle.update();
           requestAnimationFrame(animate);
         }
-        
+
         animate();
 </pre>
     <hr>
