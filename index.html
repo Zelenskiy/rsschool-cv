@@ -29,7 +29,7 @@
     <hr>
     <h3>Briefly About Myself:</h3>
     <p>
-        I possess a foundation in computer science and physics, enabling me to apply my analytical and logical abilities in software development and testing. With over two decades of experience collaborating with others, I am adept at working in teams and have a strong interest in staying updated on industry news and emerging technologies. I have a knack for rapid learning and effective time management.    </p>
+        I possess a foundation in computer science and physics, enabling me to apply my analytical and logical abilities in software development and testing. With over two decades of experience collaborating with others, I am adept at working in teams and have a strong interest in staying updated on industry news and emerging technologies. I have a knack for rapid learning and effective time management.</p>
     <hr>
 
     <h3>Skills and Proficiency:</h3>
@@ -50,24 +50,22 @@
     <h3>Code examples:</h3>
     <hr>
     <pre>
-       
         
-        const g = 9.81;        
+        const g = 9.81;
         let m1 = 0.35;
         let m2 = 0.1;
         let μ = 0.25;
         const x0 = 70;
         const y0 = 50;
-        const t = 0.30
-        const coefT = 0.05
-        const coefL = 0.05
-        let isStarted = false;        
-        
+        const t = 0.30;
+        const coefT = 0.05;
+        const coefL = 0.05;
+        let isStarted = false;
         const movingRectangle = new MovingBody(m1, m2, μ, x0, y0, 2,  0, 1, 0);
         const width = 50;
         const height = 30;
         const widthTribometr = 378+70;
-        movingRectangle.reset();        
+        movingRectangle.reset();
         
         reset.addEventListener("click", () =&gt; {
           isStarted = false;
@@ -75,7 +73,7 @@
             
         });
         
-        started.addEventListener("click", () =&gt; {  
+        started.addEventListener("click", () =&gt; {
           isStarted = !isStarted;
           if (isStarted) {
             kol.classList.add("rotate-img");
