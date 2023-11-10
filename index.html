@@ -69,13 +69,13 @@
         const widthTribometr = 378+70;
         movingRectangle.reset();        
         
-        reset.addEventListener("click", () => {
+        reset.addEventListener("click", () =&gt; {
           isStarted = false;
           movingRectangle.reset();
             
         });
         
-        started.addEventListener("click", () => {  
+        started.addEventListener("click", () =&gt; {  
           isStarted = !isStarted;
           if (isStarted) {
             kol.classList.add("rotate-img");
